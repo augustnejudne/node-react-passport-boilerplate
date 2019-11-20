@@ -1,0 +1,22 @@
+{
+  "name": "node-react-passport-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for fullstack app with node, react, passport",
+  "main": "index.js",
+  "engines": {"node": "10.x"},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["node", "react", "passport"],
+  "author": "Kim Nejudne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
